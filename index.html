@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <title>Desarrollo Web Hmo</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Font Awesome -->
+    <link href="https://fonts.googleapis.com/css?family=Manjari:100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/css/mdb.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.css.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/style.scss">
+
+  </head>
+ 
+
+  <body>
+
+<!--Navbar-->
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark gris scrolling-navbar">
+  <div class="container">
+      <!-- Navbar brand 
+  <a class="navbar-brand" href="#">WebHmo</a>-->
+
+  <!-- Collapse button -->
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+    aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <!-- Collapsible content -->
+  <div class="collapse navbar-collapse" id="basicExampleNav">
+
+    <!-- Links -->
+    <ul class="navbar-nav ml-auto mr-auto">
+      <li class="nav-item">
+        <a class="btn-2 nav-link ml-5" href="#"> <span>Home</span>
+        </a>
+      </li>
+      <li class="nav-item">
+        <a class="btn-2 nav-link ml-5" href="#"><span>Features</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="btn-2 nav-link ml-5" href="#"><span>Pricing</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="btn-2 nav-link ml-5" href="contact.html"><span>Contact</span></a>
+      </li>  
+    </ul>
+  </div>
+  <!-- Collapsible content -->
+  </div>  
+</nav>
+<!--/.Navbar-->
+
+<div class="contenedor hide-on-large-only">
+  <button class="botonF1" id="modalActivate" type="button" data-toggle="modal" data-target="#exampleModalPreview">
+      <i class="fas fa-bars"></i>
+  </button>        
+</div>
+<!--Modal-->
+<div class="modal fade right" id="exampleModalPreview" tabindex="-1" role="dialog" aria-labelledby="exampleModalPreviewLabel" style="display: none;" aria-hidden="true">
+  <div class="modal-dialog " role="document">
+    <div class=" contenidomodal">                      
+      <div class="modal-body  col-6">
+        <ul class="navbar-nav mr-auto ml-auto">                                   
+          <li class="nav-item active">
+            <a class="nav-link waves-effect waves-light" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link waves-effect waves-light" href="#">Features</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link waves-effect waves-light" href="#">Pricing</a>
+          </li> 
+        </ul>
+      </div>                      
+    </div>
+  </div>
+</div>
+<!--Modal Finish-->
+
+<!--SECTION CONTAINER1-->
+<div class="container1">
+  <section id="banner">
+    <div class="content">
+      <header>
+        <h2>The future has landed</h2>
+        <p style= "font-family: Roboto, Helvetica, sans-serif;"!important;>And there are no hoverboards or flying cars.<br/>
+        Just apps. Lots of mother flipping apps.</p>
+      </header>
+      <span class="image"><img src="img/pic01.jpg" alt="" /></span>
+    </div>
+  </section>
+</div>
+<!--SECTION CONTAINER1 FINISH-->
+
+<!--Hey! This is the original version
+of Simple CSS Waves-->
+
+<div class="header mb-5">
+  <!--Waves Container Este style, va dentro de la etiqueta de svg style="transform:rotate(180deg);
+      -ms-transform:rotate(180deg); 
+      -webkit-transform:rotate(180deg);" -->
+  <div>    
+      <svg class="waves" style="transform:rotate(180deg);
+      -ms-transform:rotate(180deg); 
+      -webkit-transform:rotate(180deg);" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+      viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+      <defs>
+      <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+      </defs>
+      <g class="parallax">
+      <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255,255,255,0.7" />
+      <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255,255,255,0.5)" />
+      <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255,255,255,0.3)" />
+      <use xlink:href="#gentle-wave" x="48" y="7" fill="#fff" />
+      </g>
+      </svg>
+      </div>
+      <!--Waves end-->
+<!--Content before waves-->
+<div class="inner-header flex">
+<!--Just the logo.. Don't mind this-->
+  <div class="fila container" style="padding-block-start: 5rem; padding-bottom: 5rem;" >
+    <div class="mb-4 mt-5 ml-4 col-md-3 col-10 card card-cascade narrower">
+      <!-- Card image -->
+      <div class="">
+        <img  class="view view-cascade" src="img/noticias.svg" style="width: 100px;" alt="Card image cap">
+      </div>
+      <div class="card-body card-body-cascade visual-card ml-1">
+        <h5>
+          Ofrecemos diseño responsive, ya que la información de tu sitio se adapta a cualquier pantalla, así  tu página estará siempre disponible.
+        </h5>
+      </div>      
+    </div>
+    <div class="mb-4 mt-5 ml-4 col-md-3 col-10 card card-cascade narrower">
+      <!-- Card image -->
+      <div class="">
+        <img  class="view view-cascade" src="img/shop.svg" style="width: 100px;" alt="Card image cap">
+      </div>
+      <div class="card-body card-body-cascade visual-card">
+        <h5>
+          Ofrece tus productos y servicios mediante una tienda Online, empieza en este mundo del comercio electrónico ahora!
+        </h5>
+      </div>      
+    </div>
+    <div class="mb-4 mt-5 ml-4 col-md-3 col-10 card card-cascade narrower">
+      <!-- Card image -->
+      <div class="">
+        <img  class="view view-cascade" src="img/desarrollo.svg" style="width: 100px;" alt="Card image cap">
+      </div>
+      <div class="card-body card-body-cascade visual-card">
+        <h5>
+          En el desarrollo de tu sitio aplicamos un diseño profesional para la buena experiencia de usuario e interfaz gráfica.
+        </h5>
+      </div>      
+    </div>
+  </div>
+</div>
+
+</div>
+  <!--Header ends-->
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- JQuery -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.9/js/mdb.min.js"></script>
+  </body>
+</html>
